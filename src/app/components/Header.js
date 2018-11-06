@@ -3,7 +3,7 @@ import React from "react";
 export class Header extends React.Component {
     render() {
         return (
-            <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark info-color">
+            <nav className="navbar fixed-top navbar-expand-sm navbar-dark bg-dark info-color">
                 <a className="navbar-brand" href="#">AFHAM</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -16,11 +16,11 @@ export class Header extends React.Component {
                         <li className="nav-item">
                             <a className="nav-link" href="#">Projects</a>
                         </li>
-                     
                     </ul>
                     <form className="form-inline">
                         <div className="md-form my-0">
                             <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"></input>
+                            <button className="btn btn-success mr-sm-2" type="submit">Search</button>
                         </div>
                     </form>
                 </div>
