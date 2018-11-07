@@ -2,7 +2,11 @@
     margin-top: 50px;
 }
 
-.container-slide {
+.container-fluid {
     margin-top: 15px;
 }
-
+.jumbotron { min-height: 400px; }
+.card { 
+    min-height: 400px;
+    max-width: 800px;
+ }
