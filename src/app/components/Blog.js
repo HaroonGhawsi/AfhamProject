@@ -32,7 +32,7 @@ export class Blog extends React.Component {
               </h3>
                                 </Link>
                                 <p className="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
+              <a href="#"> Haroon Ghawsi </a>
                                     on September 24, 2018</p>
                             </div>
                             <hr />
@@ -43,7 +43,7 @@ export class Blog extends React.Component {
               </h2>
                                 </Link>
                                 <p className="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
+              <a href="#"> Haroon Ghawsi </a>
                                     on September 18, 2018</p>
                             </div>
                             <hr />
@@ -58,7 +58,7 @@ export class Blog extends React.Component {
                                 </Link>
 
                                 <p className="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
+              <a href="#"> Haroon Ghawsi </a>
                                     on August 24, 2018</p>
                             </div>
                             <hr />
@@ -72,7 +72,7 @@ export class Blog extends React.Component {
               </h3>
                                 </Link>
                                 <p className="post-meta">Posted by
-              <a href="#">Start Bootstrap</a>
+              <a href="#"> Haroon Ghawsi </a>
                                     on July 8, 2018</p>
                             </div>
                             <hr />
