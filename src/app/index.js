@@ -2,12 +2,11 @@ import React from "react";
 import { render } from "react-dom";
 import { Router, Route, browserHistory, IndexRoute } from "react-router";
 
-import { Header } from "./components/Header";
 import { Home } from "./components/Home";
 import { Projects } from "./components/Projects";
 import { Blog } from "./components/Blog";
 import { Root } from "./components/Root";
-
+import { Post } from "./components/Post";
 
 class App extends React.Component {
     render() {
@@ -17,6 +16,7 @@ class App extends React.Component {
                     <IndexRoute component={Home} />
                     <Route path={"blog"} component={Blog} />
                     <Route path={"projects"} component={Projects} />
+                    <Route path={"post"} component={Post} />
                 </Route>
             </Router>
         );
