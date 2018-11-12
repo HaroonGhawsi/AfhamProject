@@ -1,7 +1,31 @@
 import React from 'react';
 import { Link } from "react-router";
 
+import { NewPost } from "./NewPost";
+
 export class Blog extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            hidePost: false
+        }
+    }
+
+    handleNewPostClick = () => {
+        console.log("hidePost: ", this.state.hidePost);
+        if (!this.state.hidePost) {
+            this.setState({
+                hidePost: true
+            })
+        }
+        else {
+            this.setState({
+                hidePost: false
+            });
+        }
+    }
+
+
     render() {
         return (
             <div className="container">
@@ -20,6 +44,13 @@ export class Blog extends React.Component {
                 </header>
 
                 <div className="container-content">
+                    <div className="clearfix">
+                        <button className="btn btn-primary float-right" onClick={this.handleNewPostClick.bind(this)}>New Post</button>
+                    </div>
+                    {this.state.hidePost ? <NewPost/> : null}
+
+
+
                     <div className="row">
                         <div className="col-lg-8 col-md-10 mx-auto">
                             <div className="post-preview">
@@ -79,8 +110,11 @@ export class Blog extends React.Component {
                             <div className="clearfix">
                                 <a className="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
                             </div>
+
                         </div>
                     </div>
+                   
+
                 </div>
 
                 <hr />

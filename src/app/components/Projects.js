@@ -21,72 +21,70 @@ export class Projects extends React.Component {
                 </header>
 
                 <div className="container-content">
-
-
                     <div className="row">
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100">
+                                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                                <div className="card-body">
+                                    <h4 className="card-title">
                                         <a href="#">Project One</a>
                                     </h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100">
+                                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                                <div className="card-body">
+                                    <h4 className="card-title">
                                         <a href="#">Project Two</a>
                                     </h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100">
+                                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                                <div className="card-body">
+                                    <h4 className="card-title">
                                         <a href="#">Project Three</a>
                                     </h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100">
+                                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                                <div className="card-body">
+                                    <h4 className="card-title">
                                         <a href="#">Project Four</a>
                                     </h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100">
+                                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                                <div className="card-body">
+                                    <h4 className="card-title">
                                         <a href="#">Project Five</a>
                                     </h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
-                                <div class="card-body">
-                                    <h4 class="card-title">
+                        <div className="col-lg-6 mb-4">
+                            <div className="card h-100">
+                                <a href="#"><img className="card-img-top" src="http://placehold.it/700x400" alt=""></img></a>
+                                <div className="card-body">
+                                    <h4 className="card-title">
                                         <a href="#">Project Six</a>
                                     </h4>
-                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                                    <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
                                 </div>
                             </div>
                         </div>
