@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router";
 
 import { NewPost } from "./NewPost";
+import { timingSafeEqual } from 'crypto';
 
 export class Blog extends React.Component {
     constructor(props) {
@@ -12,7 +13,6 @@ export class Blog extends React.Component {
     }
 
     handleNewPostClick = () => {
-        console.log("hidePost: ", this.state.hidePost);
         if (!this.state.hidePost) {
             this.setState({
                 hidePost: true
@@ -48,9 +48,6 @@ export class Blog extends React.Component {
                         <button className="btn btn-primary float-right" onClick={this.handleNewPostClick.bind(this)}>New Post</button>
                     </div>
                     {this.state.hidePost ? <NewPost/> : null}
-
-
-
                     <div className="row">
                         <div className="col-lg-8 col-md-10 mx-auto">
                             <div className="post-preview">
@@ -119,7 +116,7 @@ export class Blog extends React.Component {
 
                 <hr />
 
-                <footer>
+                               <footer>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8 col-md-10 mx-auto">
@@ -149,6 +146,7 @@ export class Blog extends React.Component {
                                         </a>
                                     </li>
                                 </ul>
+                                <br/>
                                 <p className="copyright text-muted">Copyright &copy; Haroon Ghawsi 2018</p>
                             </div>
                         </div>

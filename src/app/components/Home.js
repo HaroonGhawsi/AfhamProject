@@ -5,8 +5,8 @@ export class Home extends React.Component {
     render() {
         return (
             <div className="container">
-                <header className="home-page"></header>
-            </div>
+                <header className="home-page"/>
+        </div>                
         );
     };
 } 

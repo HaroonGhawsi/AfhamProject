@@ -15,7 +15,7 @@ export class Post extends React.Component {
                                     <h1>Man must explore, and this is exploration at its greatest</h1>
                                     <h2 className="subheading">Problems look mighty small from 150 miles up</h2>
                                     <span className="meta">Posted by
-                <a href="#"> Haroon Ghawsi </a>
+                <a href="/"> Haroon Ghawsi </a>
                                         on August 24, 2018</span>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@ export class Post extends React.Component {
 
                 <hr />
 
-                <footer>
+                               <footer>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-8 col-md-10 mx-auto">
@@ -92,14 +92,15 @@ export class Post extends React.Component {
                                         </a>
                                     </li>
                                     <li className="list-inline-item">
-                                    <Link to={"https://github.com/HaroonGhawsi"}>
+                                        <a href="#">
                                             <span className="fa-stack fa-lg">
                                                 <i className="fas fa-circle fa-stack-2x"></i>
                                                 <i className="fab fa-github fa-stack-1x fa-inverse"></i>
                                             </span>
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
+                                <br/>
                                 <p className="copyright text-muted">Copyright &copy; Haroon Ghawsi 2018</p>
                             </div>
                         </div>

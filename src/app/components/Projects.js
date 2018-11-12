@@ -122,6 +122,7 @@ export class Projects extends React.Component {
                                         </a>
                                     </li>
                                 </ul>
+                                <br/>
                                 <p className="copyright text-muted">Copyright &copy; Haroon Ghawsi 2018</p>
                             </div>
                         </div>
